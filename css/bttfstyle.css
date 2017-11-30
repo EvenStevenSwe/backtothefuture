@@ -1,0 +1,160 @@
+﻿/* typsnitt */
+
+@import url(https://fonts.googleapis.com/css?family=Lato|Alegreya+Sans+SC);
+
+/* bakgrundsbild och rubriker */
+
+body {
+    background-size: cover;
+    font-family: 'Lato' !important;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif !important;
+    color: #000000 !important; 
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Alegreya Sans SC', sans-serif !important;
+    color: #000000 !important;
+    text-align: center;
+    padding: 1%;
+}
+
+h4 {
+    font-family: 'Alegreya Sans SC', sans-serif  !important;
+    color: #ffffff !important;
+    }
+
+h5 {
+    font-family: 'Lato', sans-serif !important; 
+    font-size: 14px !important; }
+
+/* header */
+
+#socials { text-align: center; }
+
+#socials img { 
+    height: 50px;
+    width: 50px;
+}
+
+/* länkar */
+
+/* ej klickad länk */
+a:link {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 18px;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+/* besökt link */
+a:visited {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #ffffff !important;
+    }
+
+/* pil på länk */
+a:hover {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #4d4d4d !important;
+}
+
+/* vald länk */
+a:active {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #ffffff !important;
+}
+
+/* innehåll på sidan */
+
+.bttflogo img { width: 50%; }
+
+/* Om filmer */
+
+.castphoto::after {
+    content: "";
+    clear: both;
+    display: block;
+text-align: center;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    }
+
+.col-1 {width: 14.28%;}
+.col-2 {width: 14.28%;}
+.col-3 {width: 14.28%;}
+.col-4 {width: 14.28%;}
+.col-5 {width: 14.28%;}
+.col-6 {width: 14.28%;}
+.col-7 {width: 14.28%;}
+
+/* Ruta för innehåll */
+
+.content_box {
+    background-color: rgba(79,79,79,0.5);
+    font-size: 14px !important;
+    color: #ffffff;
+    margin: 0 auto;
+    width: 75%;
+    padding: 1%;
+    overflow: hidden;
+    border: 1px solid;
+}
+
+/* Filmlogo */
+.mlogo {float: left}
+
+.trailer {
+    float: right;
+    margin-left: 15px;
+}
+
+.trailer iframe,
+.trailer object,
+.trailer embed {
+    width: 560px;
+    height: 315px;
+}
+
+/*  IMDB Logo */
+.imdb { float: left; }
+
+/* Galleri */
+
+.gallery {
+    text-align: center;
+    padding: 0 5 5 0px;
+}
+
+/* footer */
+
+.madeby { text-align: center; }
+
+#social { text-align: center; }
+
+#social img { 
+    height: 50px;
+    width: 50px;
+}
+
+<!-- knapp vid kontaktformulär -->
+
+h1{
+    margin-bottom: 40px;
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
